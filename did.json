@@ -1,0 +1,23 @@
+ "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:raw.githubusercontent.com:ticapix:did-web:refs:heads:main",
+    "verificationMethod": [
+        {
+            "id": "did:web:raw.githubusercontent.com:ticapix:did-web:refs:heads:main#key0",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:raw.githubusercontent.com:ticapix:did-web:refs:heads:main",
+            "publicKeyJwk": {
+                "alg": "RS256",
+                "e": "AQAB",
+                "kty": "RSA",
+                "n": "s9GjczbilyaXoLNoF49suhmqaRBiYACIbSTdTRIkovuehGeRSWa11Xmk1EwBAPzTvIBvTRSPm2Twkbs5MzWYBwstQH_O21SwaiA94KijUBFYbdborEN1MAxkEWOVdX7BMEZPKUaQDsxlaL7yMEHwIIFYtBsaGCstMnYqL2zY6LhroWba-39re7OFg6ZZzWeISBv6ht4eKqTesp_LYmutFMLfIBfOMBescmWuSbH3vsYmiShBgNJ9mcSjzFb9YlrXHplgLE-MZG976aASyhnn-_UCb8ru37EhsUDTySVBG8BRmM73MZMQAAAZ-3HHnlzUN_2z4xcHI2JpczuQadLIVw",
+                "kid": "WY5vUGOb5hHXcPODaWB1/SVQx1upLklGysiK6qL54PM=",
+                "x5u": "https://raw.githubusercontent.com/ticapix/did-web/refs/heads/main/cert.pem"
+            }
+        }
+    ],
+    "assertionMethod": [
+        "did:web:raw.githubusercontent.com:ticapix:did-web:refs:heads:main#key0"
+    ]
