@@ -1,4 +1,5 @@
- "@context": [
+ {
+"@context": [
         "https://www.w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
@@ -8,7 +9,6 @@
             "id": "did:web:raw.githubusercontent.com:youcefpy:didweb:refs:heads:main#key0",
             "type": "JsonWebKey2020",
             "controller": "did:web:raw.githubusercontent.com:youcefpy:didweb:refs:heads:main",
-         
               "publicKeyJwk": {
                  "alg": "PS256",
                    "e": "AQAB",
@@ -18,7 +18,7 @@
                    ],
                    "kty": "RSA",
                    "n": "1Ce52C3HGBGT6wCeqgoX_mvcjufSjZ60xjz3Wy5G-zE8ngh7f5OrXava5XB-orDyFtrCIR4tp4DUHFLFSiZ3M48K1Eq3rlVYNmLyqPQ9P7vjeFBE9LOLu-FcSLNFj93ABRFr-QESS5DYpBq2-jK0ILsXCGeBwxBu-X3KQKL5N8p_o4rWXrgLkia-Pt17Dh0bjcWm1Vg9ZaH29YEJdbnE7HN6633BLVvc_-LgzC9QAonlq7OX6lbb9Mw8rNZKpd6uj1kM7sPR71ULEsDUO22CUg2Z6-ekZ6W1dK4j3Q66ZSFMeUA_IIR-RUIU9ZnNn76QVEgKvxjzLNIufSEjz-z2rQ",
-                 "kid": "SxS1MG9e5R4P87n4QpXZv9w10tPuTveOZvrk05Re3cE="
+                 "kid": "SxS1MG9e5R4P87n4QpXZv9w10tPuTveOZvrk05Re3cE=",
                 "x5u": "https://raw.githubusercontent.com/youcefpy/didweb/refs/heads/main/cert.pem"
             }
         }
@@ -26,3 +26,8 @@
     "assertionMethod": [
         "did:web:raw.githubusercontent.com:youcefpy:didweb:refs:heads:main#key0"
     ]
+
+
+
+ }
+ 
