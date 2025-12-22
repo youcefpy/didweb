@@ -10,16 +10,15 @@
             "type": "JsonWebKey2020",
             "controller": "did:web:raw.githubusercontent.com:youcefpy:didweb:refs:heads:main",
             "publicKeyJwk": {
-                "alg": "PS256",
+                "alg": "RS256",
                 "e": "AQAB",
                 "ext": true,
                 "key_ops": [
                     "verify"
                 ],
                 "kty": "RSA",
-                "n": "1Ce52C3HGBGT6wCeqgoX_mvcjufSjZ60xjz3Wy5G-zE8ngh7f5OrXava5XB-orDyFtrCIR4tp4DUHFLFSiZ3M48K1Eq3rlVYNmLyqPQ9P7vjeFBE9LOLu-FcSLNFj93ABRFr-QESS5DYpBq2-jK0ILsXCGeBwxBu-X3KQKL5N8p_o4rWXrgLkia-Pt17Dh0bjcWm1Vg9ZaH29YEJdbnE7HN6633BLVvc_-LgzC9QAonlq7OX6lbb9Mw8rNZKpd6uj1kM7sPR71ULEsDUO22CUg2Z6-ekZ6W1dK4j3Q66ZSFMeUA_IIR-RUIU9ZnNn76QVEgKvxjzLNIufSEjz-z2rQ",
-                "kid": "SxS1MG9e5R4P87n4QpXZv9w10tPuTveOZvrk05Re3cE=",
-                "x5u": "https://raw.githubusercontent.com/youcefpy/didweb/refs/heads/main/cert.pem"
+                "n": "1Bs80N4pWeB6Wdr6tso29SEQMbO3YIVnjI95olt6owpL4Er_tgU1pTtcojDRhZRE76WvQDLlSIJSQ4fiuWS0MQUTjq2i4Qke369FVUUDyMkRHyMx_OWVsrJYcuYC-aT0P1riV3jcED8kD7P5vWiDZ7mVBfEe7ZD2ZQgiLfGdYqez4UAlDQSVfBLda9gr5rYc-5I9Fz1alNIvhSvE-GFPok3mOb74MSppd6fBSsS43qwbLFUCnCzPX3x0H8DSxkfFC2pM_qxBN7sJ9BYZGU4TEBMX60jAXynx0zN6TyR_qeMXSw5US7XFbWfF8pOTeI8zVclOO1MbnH9aMjDWkZdUVQ",
+                "kid": "pAn5P6xHzISD8oBp7rv+XlKgvKecUUgT5120bq9D3Dw="
             }
         }
     ],
