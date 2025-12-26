@@ -12,7 +12,6 @@
             "publicKeyJwk": {
                 "alg": "RS256",
                 "e": "AQAB",
-                "ext": true,
                 "kty": "RSA",
                 "n": "oHRgLjV6JIufqIx4O9Nn5As_8cc3htxRk-mCA3WnLWOuNYXtQzzGT3_EHlAcvLKRHt7eQkcMCJD8t5QMExFUH5jBdvCRl4sHnnD4Cmq-y0L9uQW0yq8MSoinN3yxL5SVZI-M6e0z36cJN6EEw90MJ4TRidVQSEPMjAaimT4ntfdbYVMhKox8Pco9jIXrEjLFr6W7PQ_2TqicwAIxzmIJ9gc0lLNFLlXliM_gu6GI1rNMtasGxzHyKkemQHhZ915OxWM3Kyv6RmEI0bvxKEZF1ZSKYuSyOQ_XMU1PLZj4jwP9XNXNqB3I98ppNpAna_cIkcLoPDIGqJH9-8LHYWzfLw",
                 "kid": "N/1WCmvrTDb2HjTHajgxvjC7MXEvNzqvbo9uWgf6yAY=",
